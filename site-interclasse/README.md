@@ -6,4 +6,3 @@ https://www.figma.com/design/jPmR76yJNsJrPnOgAWxZQ6/Site_Interclasse_PW?node-id=
 - index.php
 - components (componentes de interface, coisas que são usadas em vários lugares)
 - public (assets e css, tudo que você pode acessar dboa pelo browser)
-
