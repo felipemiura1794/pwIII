@@ -1,0 +1,15 @@
+:root {
+    --main-color: #111925;
+    --main-color-dark: #0B1117;
+    --main-color-light: #1C3150;
+    --secondary-color: #10141A;
+    --third-color: #365781;
+    --light-third-color: #C8D9EF;
+}
+
+.main-color { background-color: var(--main-color); }
+.main-dark-color { background-color: var(--main-color-dark); }
+.main-light-color { background-color: var(--main-color-light); }
+.secondary-color { background-color: var(--secondary-color); }
+.third-color { background-color: var(--third-color); }
+.light-third-color { background-color: var(--light-third-color); }

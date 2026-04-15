@@ -2,3 +2,19 @@
 div {
     border-radius: var(--default-border-radius);
 }
+
+.row-container, .container {
+    gap: 12px;
+    display: flex;
+}
+
+.container {
+    padding: 8px;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+    .row-container {
+        flex-direction: column;
+    }
+}

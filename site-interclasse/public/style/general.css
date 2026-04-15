@@ -1,4 +1,5 @@
 /* Tudo que precisa ser linkado em todas as páginas do projeto */
+@import url("colors.css");
 @import url("fonts.css");
 @import url("components/navbar.css");
 @import url("containers.css");
@@ -24,14 +25,7 @@ main {
 
 :root {
     /* Cores */
-    --main-color: #111925;
-    --main-color-dark: #0B1117;
-    --main-color-light: #1C3150;
-    --secondary-color: #10141A;
-    --third-color: #365781;
-    --light-third-color: #C8D9EF;
-
-    --page-background-color: var(--main-color);
+    --page-background-color: white;
     --default-font-color: white;
 
     /* Outras coisas */
