@@ -1,0 +1,29 @@
+.search-bar {
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    
+    width: 70%;
+    
+    background-color: var(--main-color-dark);
+    
+    input {
+        width: 100%;
+        background: none;
+        border: none;
+    }
+
+    input::placeholder {
+        color: var(--third-color);
+    }
+}
+
+.search-bar-search {
+    background: none;
+    border: none;
+    
+    margin-left: auto;
+}
+
