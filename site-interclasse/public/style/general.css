@@ -1,3 +1,51 @@
-@import url("components.css");
-
 /* Tudo que precisa ser linkado em todas as páginas do projeto */
+@import url("fonts.css");
+@import url("components/navbar.css");
+@import url("containers.css");
+html {
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: var(--page-background-color);
+}
+
+header, main {
+    margin: 0 var(--hpixels-to-centralize);
+}
+
+main {
+    padding: 10px;
+}
+
+:root {
+    /* Cores */
+    --main-color: #111925;
+    --main-color-dark: #0B1117;
+    --main-color-light: #1C3150;
+    --secondary-color: #10141A;
+    --third-color: #365781;
+    --light-third-color: #C8D9EF;
+
+    --page-background-color: var(--main-color);
+    --default-font-color: white;
+
+    /* Outras coisas */
+    --navbar-vertical-padding: 10px;
+    --navbar-height: 40px;
+    --default-border-radius: 4px;
+
+    --max-page-size: 1440px;
+    --hpixels-to-centralize: calc((100vw - var(--max-page-size)) / 2);
+}
+
+/* Max width tem que ser = --max-page-size */
+@media only screen and (max-width: 1440px) {
+    :root {
+        --hpixels-to-centralize: 0;
+    }
+}
