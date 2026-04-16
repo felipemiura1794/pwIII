@@ -1,15 +1,46 @@
-.match-card {
-    padding: 8px;
-    align-items: center;
-    justify-content: space-between;
-    
-    background-color: var(--main-color);
-}
-
 .match-title, .match-info {
     align-items: center;
 }
 
 .match-info {
-    color: var(--light-third-color)
+    color: var(--light-third-color);
+}
+
+.match-card, .match-result-card {
+    background-color: var(--main-color);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.match-card {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.match-result-card {
+    width: auto;
+    gap: 0;
+    
+    .match-card {
+        justify-content: left;
+        background: none;
+    }
+}
+
+.team-points-info {
+    justify-content: center;
+    align-items: center;
+}
+
+.match-result {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-profile {
+    justify-content: center;
+}
+
+.team-name {
+    margin: auto;
 }

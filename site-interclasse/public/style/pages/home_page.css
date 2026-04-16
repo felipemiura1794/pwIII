@@ -10,8 +10,8 @@
 }
 
 .feed-container {
-    width: auto;;
-    height: 100vh;
+    width: auto;
+    height: 100%;
 }
 
 .calendar-small, .next-matches {
@@ -80,7 +80,6 @@
 @media only screen and (max-width: 768px) {
     .left-column {
         width: auto;
-        flex-direction: row;
     }
 
     .main-feed {
@@ -88,6 +87,9 @@
     }
 
     .calendar-small, .next-matches {
-        width: 100%;
+        width: auto;
+    }
+    .next-matches {
+        height: 100px;
     }
 }
