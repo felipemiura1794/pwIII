@@ -1,4 +1,5 @@
 .left-column {
+    min-width: fit-content;
     width: 30%;
 }
 
