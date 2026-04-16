@@ -1,3 +1,4 @@
+@import url("components/scrollbars.css");
 /* CSS de elementos simples tipo Containers e Colunas */
 div {
     border-radius: var(--default-border-radius);
@@ -17,6 +18,7 @@ div {
     width: fit-content;
     flex-direction: column;
 }
+
 
 /* Você pode fazer class="container padded" para deixar ele 
    com o tamanho padrão de padding */

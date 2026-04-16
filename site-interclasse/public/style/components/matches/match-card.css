@@ -1,0 +1,15 @@
+.match-card {
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: var(--main-color);
+}
+
+.match-title, .match-info {
+    align-items: center;
+}
+
+.match-info {
+    color: var(--light-third-color)
+}
