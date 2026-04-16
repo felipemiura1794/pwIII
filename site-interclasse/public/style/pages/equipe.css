@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.corpo {
+    background-color: #111925;
+    width: 100%;
+    min-height: 100vh; 
+    padding: 20px;   
+    box-sizing: border-box;
+}
+
+
+.perfil-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.banner img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.perfil {
+    background-color: #1C3150;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+    color: white;
+    height: 55px; 
+    position: relative;
+}
+
+.perfil-esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+
+.perfil-foto img {
+    width: 180px; 
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin-top: -60px; 
+    background: #ccc;
+    position: relative;
+    object-fit: cover;
+}
+
+.equipe-nome {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.botão {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+
+.icones-das-bolas {
+    display: flex;
+    align-items: center;
+}
+
+.icones-das-bolas img {
+    height: 40px; 
+    width: auto;
+}
