@@ -1,3 +1,7 @@
+/* Todas as cores do site vão ser declaradas como variáveis aqui: */
+/* Se você precisa usar uma cor, por favor use a variável ou crie uma nova !! 
+   (de preferência com um nome decente)f
+*/
 :root {
     --main-color: #111925;
     --main-color-dark: #0B1117;
@@ -7,6 +11,11 @@
     --light-third-color: #C8D9EF;
 }
 
+/* Essas classes aqui setam a cor de fundo com base no nome da classe */
+/* A classe main-color deixa o fundo com a cor --main-color, etc */
+/* Você pode usar isso aqui se quiser testar cores específicas em algum elemento
+   sem ter que criar uma classe nele ou algo do tipo.
+*/
 .main-color { background-color: var(--main-color); }
 .main-dark-color { background-color: var(--main-color-dark); }
 .main-light-color { background-color: var(--main-color-light); }
