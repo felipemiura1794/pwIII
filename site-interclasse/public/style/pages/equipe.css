@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-}
 
 .corpo {
     background-color: #111925;
@@ -80,4 +75,55 @@
 .icones-das-bolas img {
     height: 40px; 
     width: auto;
+}
+
+.corpo-baixo {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.esquerdo { flex: 1; }
+.meio { flex: 2; }
+.direito { flex: 1.5; }
+
+
+.Admin-equipe {
+    background-color: #1C3150;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.Admin-equipe img {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.ProPlayers, .Campeonatos {
+    background-color: #1C3150;
+    margin-bottom: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.ProPlayers img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.ProPlayer-coisas { flex-grow: 1; }
+
+.conquistas {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
