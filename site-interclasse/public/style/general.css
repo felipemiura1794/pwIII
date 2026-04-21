@@ -1,4 +1,11 @@
 /* Tudo que precisa ser linkado em todas as páginas do projeto */
+/*
+   Quando for criar uma página nova, tente fazer a maior parte das divs
+   com base nos conteúdos desse arquivo e do 'containers.css'.
+
+   ***Em páginas novas, sempre coloque todo o conteúdo da página 
+   (menos a navbar e o footer), dentro do <main></main> !!!
+*/
 @import url("colors.css");
 @import url("fonts.css");
 @import url("components/navbar.css");
@@ -33,12 +40,18 @@ main {
     --navbar-height: 40px;
     --default-border-radius: 4px;
 
-    --max-page-size: 1440px;
+    /* Por padrão a página vai tentar ter esse tamanho: (por padrão 1440px) */
+    --max-page-size: 1024px;
+    /* 
+        Essa variável com nome estranho serve para calcular quantos pixels
+        um container precisa ter de margem para ficar centralizado com
+        width: var(--max-page-size)    
+    */
     --hpixels-to-centralize: calc((100vw - var(--max-page-size)) / 2);
 }
 
 /* Max width tem que ser = --max-page-size */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1024px) {
     :root {
         --hpixels-to-centralize: 0;
     }

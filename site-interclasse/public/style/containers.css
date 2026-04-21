@@ -1,3 +1,4 @@
+@import url("components/scrollbars.css");
 /* CSS de elementos simples tipo Containers e Colunas */
 div {
     border-radius: var(--default-border-radius);
@@ -7,6 +8,7 @@ div {
     width: 100%;
 }
 
+/* Esses dois containers aqui são responsivos por padrão !! */
 .row-container, .container {
     gap: 12px;
     display: flex;
@@ -17,10 +19,17 @@ div {
     flex-direction: column;
 }
 
+
+/* Você pode fazer class="container padded" para deixar ele 
+   com o tamanho padrão de padding */
 .container.padded {
     padding: 8px;
 }
 
+/* Quando você for colocar um ícone, use: 
+   <span class="icon-span"><img src=""></span>
+   ele se "adapta" um pouco melhor do que só img
+*/
 .icon-span {
     width: fit-content;
     display: flex;
