@@ -39,6 +39,12 @@ div {
     }
 }
 
+.round-profile {
+    img {
+        border-radius: 50%;
+    }
+}
+
 .hidden {
     display: none;
     background-color: none;

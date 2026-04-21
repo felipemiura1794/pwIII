@@ -1,8 +1,13 @@
 @import url("../components/matches/import.css");
 
+main {
+    max-height: calc(100vh - var(--navbar-height) * 2);
+}
+
 .left-column {
     min-width: fit-content;
     width: 30%;
+    height: 100%;
 }
 
 .main-feed {
@@ -11,7 +16,7 @@
 
 .feed-container {
     width: auto;
-    height: 100%;
+    max-height: 100%;
 }
 
 .calendar-small, .next-matches {
