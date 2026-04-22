@@ -1,0 +1,72 @@
+.row-container {
+    display: flex;
+    min-height: 100vh;
+    padding-bottom: 32px;
+    gap: 0;
+}
+.imagem-cadastro {
+    background-image: url('../../public/assets/img/placeholder/cadastro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+}
+.row-container .container {
+    flex: 1;
+}
+.painel-cadastro {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: 208px 64px;
+    margin: 0 auto;
+}
+.titulo-cadastro {
+    font-size: 64px;
+    color: rgb(49, 51, 99);
+    margin-bottom: 64px;
+}
+.input-cadastro {
+    width: 100%;
+    padding: 13px 16px;
+    border-radius: 999px;
+    border: 1px solid #444;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+.btn-cadastrar {
+    width: 80%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: #273c5b;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 32px;
+}
+.divisor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    color: #888;
+}
+.divisor hr {
+    flex: 1;
+    border-color: #444;
+}
+.login-link {
+    color: #ccc;
+    font-size: 15px;
+}
+.login-link a {
+    color: white;
+    text-decoration: none;
+}
