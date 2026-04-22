@@ -1,4 +1,3 @@
-
 .corpo {
     background-color: #111925;
     min-height: 100vh; 
@@ -105,6 +104,14 @@
     border-radius: 4px;
 }
 
+.Admin-Info {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+
 .ProPlayers {
     background-color: #10141A;
     display: flex;
@@ -120,6 +127,13 @@
     gap: 15px; 
     flex: 1; 
 }
+.jogador-esquerdo img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
 
 .jogador-dados {
     display: flex;
@@ -135,16 +149,14 @@
 
 .jogador-conquistas {
     display: flex;
-    align-items: center;
-    height: 100%;    
-    gap: 5px;        
-    margin-right: 15px;
+    gap: 10px;
 }
 
 .jogador-conquistas img {
-    height: 100px;    
-    width: 100px;     
+    height: 55px; 
+    width: auto;
     border-radius: 4px;
+    object-fit: cover;
 }
 
 .Campeonatos {
@@ -156,17 +168,8 @@
     border-radius: 4px;
 }
 
-.ProPlayers img {
-    width: 45px;
-    height: 45px;
-    margin-right: 15px;
-    border-radius: 4px;
-}
-
-.ProPlayer-coisas { flex-grow: 1; }
-
-.conquistas {
+.seta{
+        margin-left: auto; 
     display: flex;
     align-items: center;
-    gap: 10px;
 }
