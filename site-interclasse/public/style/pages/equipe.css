@@ -2,8 +2,10 @@
 .corpo {
     background-color: #111925;
     min-height: 100vh; 
-    padding: 0;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 
@@ -89,7 +91,7 @@
 
 
 .Admin-equipe {
-    background-color: #1C3150;
+    background-color: #10141A;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -103,7 +105,49 @@
     border-radius: 4px;
 }
 
-.ProPlayers, .Campeonatos {
+.ProPlayers {
+    background-color: #10141A;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 15px; 
+    margin-bottom: 8px;
+}
+
+.jogador-esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    flex: 1; 
+}
+
+.jogador-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.jogador-curso {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.jogador-conquistas {
+    display: flex;
+    align-items: center;
+    height: 100%;    
+    gap: 5px;        
+    margin-right: 15px;
+}
+
+.jogador-conquistas img {
+    height: 100px;    
+    width: 100px;     
+    border-radius: 4px;
+}
+
+.Campeonatos {
     background-color: #1C3150;
     margin-bottom: 8px;
     padding: 10px;
