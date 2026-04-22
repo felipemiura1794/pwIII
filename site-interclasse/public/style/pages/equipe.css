@@ -42,11 +42,11 @@
 }
 
 .perfil-foto img {
-    width: 180px; 
-    height: 100px;
+    width: 190px; 
+    height: 110px;
     border: 3px solid white;
     border-radius: 4px;
-    margin-top: -60px; 
+    margin-top: -40px; 
     background: #ccc;
     position: relative;
     object-fit: cover;
@@ -62,7 +62,7 @@
     color: white;
     border: none;
     border-radius: 4px;
-    padding: 2px 8px;
+    padding: 1px 6px;
     cursor: pointer;
 }
 
@@ -80,14 +80,36 @@
 .corpo-baixo {
     display: flex;
     gap: 20px;
-    margin-top: 20px;
+    margin: 25px auto 00 auto; 
     color: white;
+    max-width: 1600px;     
+    width: 95%;             
+
 }
-
 .esquerdo { flex: 1; }
-.meio { flex: 2; }
-.direito { flex: 1.5; }
+.direito { flex: 1.2; 
+    background-color: #1c3150; 
+    border-radius: 2px;
+    padding: 12px; 
+display: flex;
+    flex-direction: column;
+    gap: 10px;}
 
+.meio {
+    flex: 2;
+    background-color: #10141A;
+    margin: 0 10px; 
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column; 
+}
+.meio-titulo {
+    padding: 15px 15px 10px 15px; 
+    font-size: 14px;
+}
+.meio-titulo span {
+    color: #365781;
+}
 
 .Admin-equipe {
     background-color: #10141A;
@@ -99,11 +121,16 @@
 }
 
 .Admin-equipe img {
-    width: 35px;
-    height: 35px;
-    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
 }
+.Admin-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 3px; 
 
+}
 .Admin-Info {
     margin-left: auto; 
     display: flex;
@@ -111,56 +138,73 @@
     gap: 10px; 
 }
 
+.Capita{
+    font-weight: lighter;
+    font-size: 12px;
+}
 
-.ProPlayers {
-    background-color: #10141A;
+.jogadores-lista {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px 15px; 
+}
+
+.ProPlayer-card {
+    background-color: #111925;
     display: flex;
     justify-content: space-between; 
-    align-items: center; 
-    padding: 10px 15px; 
-    margin-bottom: 8px;
+    align-items: center;
+    padding: 12px 15px; 
+    border-radius: 2px;
 }
 
-.jogador-esquerdo {
+.jogador-perfil-grupo {
     display: flex;
-    align-items: center;
-    gap: 15px; 
-    flex: 1; 
+    align-items: center; 
+    gap: 15px;
 }
-.jogador-esquerdo img {
+.jogador-perfil-grupo img {
     width: 45px;
     height: 45px;
-    margin-right: 15px;
-    border-radius: 4px;
+    border-radius: 2px;
 }
-
 
 .jogador-dados {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
 }
-
-.jogador-curso {
+.jogador-dados-pessoais .nome {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.curso-adicionar {
     display: flex;
     align-items: center;
     gap: 10px; 
 }
 
+.jogador-status-grupo {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
 .jogador-conquistas {
     display: flex;
-    gap: 10px;
+    gap: 8px; 
 }
-
 .jogador-conquistas img {
-    height: 55px; 
+    height: 50px; 
     width: auto;
     border-radius: 4px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
-.Campeonatos {
-    background-color: #1C3150;
+
+.Campeonatos {  
+    background-color: #10141A;
     margin-bottom: 8px;
     padding: 10px;
     display: flex;
@@ -172,4 +216,30 @@
         margin-left: auto; 
     display: flex;
     align-items: center;
+}
+
+.hexagono-nivel-borda {
+    width: 36px;
+    height: 38px; 
+    background-color: var(--third-color);
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hexagono-nivel {
+    width: 30px;
+    height: 32px; 
+    background-color: var(--main-color-light);
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
 }
