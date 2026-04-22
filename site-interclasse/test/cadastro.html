@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="../public/style/general.css">
-    <link rel="stylesheet" href="../public/style/cadastro.css">
+    <base href="../">
+    <link rel="stylesheet" href="public/style/general.css">
+    <link rel="stylesheet" href="public/style/pages/login.css">
 </head>
 <body class="main-color">
     <header>
@@ -35,33 +36,21 @@
             </ul>
         </div>
     </header>
-    <main>
-
-
-        <div class="row-container">
-
-            <div class="container imagem-cadastro">
-                
-            </div>
-
-
+    <main class="row-container">
+            <div class="container imagem-login" style="background-image: url('public/assets/img/placeholder/cadastro.png')"></div>
             <div class="container main-dark-color">
-                <div class="painel-cadastro">
-                    <h1 class="titulo-cadastro">Cadastre-se</h1>
-                    <input class="input-cadastro" type="text" placeholder="RM (Registro de matrícula)">
-                    <input class="input-cadastro" type="email" placeholder="Email">
-                    <input class="input-cadastro" type="password" placeholder="Senha">
-                    <button class="btn-cadastrar">Cadastrar</button>
+                <div class="painel-login">
+                    <h1 class="titulo-login">Cadastre-se</h1>
+                    <input class="input-login" type="text" placeholder="RM (Registro de matrícula)">
+                    <input class="input-login" type="email" placeholder="Email">
+                    <input class="input-login" type="password" placeholder="Senha">
+                    <button class="btn-entrar">Cadastrar</button>
                     <div class="divisor">
                         <hr><span>Ou</span><hr>
                     </div>
                     <p class="login-link">Já possui conta? Faça <a href="/site-interclasse/test/login.html"><em>Log In</em></a></p>
                 </div>
             </div>
-
-        </div>
-
-
     </main>
 </body>
 </html>

@@ -1,11 +1,10 @@
-.row-container {
+main.row-container {
     display: flex;
-    min-height: 100vh;
+    min-height: calc(100vh - var(--navbar-height) * 2 - 64px);
     padding-bottom: 32px;
     gap: 0;
 }
-.imagem-cadastro {
-    background-image: url('../../public/assets/img/placeholder/cadastro.png');
+.imagem-login {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +13,7 @@
 .row-container .container {
     flex: 1;
 }
-.painel-cadastro {
+.painel-login {
     width: 100%;
     max-width: 400px;
     display: flex;
@@ -22,15 +21,14 @@
     justify-content: center;
     align-items: center;
     gap: 13px;
-    padding: 208px 64px;
-    margin: 0 auto;
+    margin: auto;
 }
-.titulo-cadastro {
+.titulo-login {
     font-size: 64px;
     color: rgb(49, 51, 99);
     margin-bottom: 64px;
 }
-.input-cadastro {
+.input-login {
     width: 100%;
     padding: 13px 16px;
     border-radius: 999px;
@@ -39,12 +37,12 @@
     color: white;
     font-size: 16px;
 }
-.btn-cadastrar {
+.btn-entrar {
     width: 80%;
     padding: 14px;
     border-radius: 10px;
     border: none;
-    background-color: #273c5b;
+    background-color: var(--third-color);
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -69,4 +67,13 @@
 .login-link a {
     color: white;
     text-decoration: none;
+}   
+
+.esqueceu-senha {
+    align-self: flex-start;
+    color: #ccc;
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: -6px;
 }
