@@ -6,22 +6,21 @@
     color: var(--light-third-color);
 }
 
-.match-card, .match-result-card {
+.match-card, .match-post-card, .post-card {
     background-color: var(--main-color);
     padding: 8px;
     border-radius: 8px;
 }
 
-.match-card {
+.card-info {
     align-items: center;
     justify-content: space-between;
 }
 
-.match-result-card {
+.match-post-card {
     width: auto;
-    gap: 0;
     
-    .match-card {
+    .card-info {
         justify-content: left;
         background: none;
     }
@@ -43,4 +42,21 @@
 
 .team-name {
     margin: auto;
+}
+
+.post-banner {
+    width: 100%;
+    border-radius: var(--default-border-radius);
+}
+
+.post-title {
+    font-weight: normal;
+}
+
+.post-body {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
