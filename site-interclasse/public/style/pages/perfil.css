@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Solway:wght@300;400;500;700;800&display=swap');
+@import url("../components/matches/import.css");
 
 * {
     font-family: "inter", system-ui;
@@ -144,8 +143,8 @@
 
 .biografia-perfil {
     height: 200px;
-    width: 400px;
-    margin-left: 30px;
+    width: 100%;
+    margin-inline: 20px;
     margin-top: 30px;
 }
 
@@ -155,12 +154,57 @@
     height: 300px;
 }
 
-.classificações-perfil {
-    width: 700px;
-    height: 800px;
-    background-color: var(--secondary-color);
+.container-insignia {
+    background-color: var(--main-color-light);
+    width: 25%;
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.titulo-classificacoes{
-    padding: 20px;
+.card-function {
+    width: 80%;
+    height: 100px;
+    margin-top: 20px;
+    padding-right: 20px;
+    background-color: var(--main-color-dark);
+
+    display: flex;
+    align-items: center;
+}
+
+.img-team-card {
+    height: 80%;
+    margin-left: 10px;
+    border-radius: 2px;
+
+}
+
+.function-class {
+    margin-inline: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.class-card {
+    font-size: 20px;
+}
+
+.sport-icon {
+    margin-left: auto;
+}
+
+.title-insignia {
+    font-size: 30px;
+    margin-block: 20px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.insignia {
+    width: 80%;
+    margin-bottom: 10px;
 }
