@@ -9,8 +9,8 @@ if (!isset($_GET["p"])) {
 if (file_exists(__DIR__ . "/view/{$_GET['p']}.php")) {
     require_once (__DIR__ . "/view/{$_GET['p']}.php");
 } else {
+    require_once (__DIR__ . "/view/error_404.php");
     http_response_code(404);
-    echo "Erro 404 | Página não encontrada";
 }
 
 include_once __DIR__ . "/components/root/html_bottom.php";

@@ -1,9 +1,5 @@
 @import url("../components/matches/import.css");
 
-body {
-    background-color: var(--main-color);
-}
-
 main {
     height: calc(100vh - var(--navbar-height) * 2);
 }
