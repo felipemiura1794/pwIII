@@ -4,7 +4,7 @@ class Database {
     private static Database | null $instance = null;
     
     private string $host = '127.0.0.1';
-    private string $db   = 'test_db';
+    private string $db = 'interclasse';
     private string $username = 'root';
     private string $password = '';
     private string $charset = 'utf8mb4';
