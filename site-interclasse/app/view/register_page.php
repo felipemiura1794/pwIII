@@ -14,7 +14,7 @@
             <div class="divisor">
                 <hr><span>Ou</span><hr>
             </div>
-            <p class="login-link">Já possui conta? Faça <a href="/site-interclasse/test/login.html"><em>Log In</em></a></p>
+            <p class="login-link">Já possui conta? Faça <a href="?p=login_page"><em>Log In</em></a></p>
         </div>
     </div>
 </main>

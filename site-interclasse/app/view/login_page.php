@@ -14,7 +14,7 @@
             <div class="divisor">
                 <hr><span>Ou</span><hr>
             </div>
-            <p class="cadastro-link">Não possui conta? <a href="/site-interclasse/test/cadastro.html"><em>Cadastre-se</em></a></p>
+            <p class="cadastro-link">Não possui conta? <a href="?p=register_page"><em>Cadastre-se</em></a></p>
         </div>
     </div>
 </main>
