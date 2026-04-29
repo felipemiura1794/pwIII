@@ -1,0 +1,166 @@
+<link rel="stylesheet" href="public/style/components/import.css">
+<link rel="stylesheet" href="public/style/pages/home_page.css">
+
+<?php include "components/root/html_head_close.php"; ?>
+
+<main class="row-container">
+    <div class="container left-column">
+        <!-- Componente do Calendário -->
+        <div class="container padded calendar-small main-dark-color">
+            <div class="keep row-container calendar-header">
+                <span class="icon-span"><img src="public/assets/icons/calendar-icon.svg" alt=""></span>
+                <h3>Julho de 2026</h3>
+                <div class="keep row-container">
+                    <button class="icon-span calendar-arrow"><img src="public/assets/icons/arrow-left.svg" alt="<"></button>
+                    <button class="icon-span calendar-arrow"><img src="public/assets/icons/arrow-right.svg" alt=">"></button>
+                </div>
+            </div>
+            <div class="container calendar-weekdays">
+                <span>Dom</span>
+                <span>Seg</span>
+                <span>Ter</span>
+                <span>Qua</span>
+                <span>Qui</span>
+                <span>Sex</span>
+                <span>Sab</span>
+            </div>
+            <div class="container calendar-grid">
+                <div></div>
+                <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+                <span>6</span><span class="current-day">7</span><span>8</span><span>9</span><span>10</span>
+                <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+                <span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+                <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span>
+                <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+            </div>
+        </div>
+
+        <div class="scrollable container padded next-matches main-dark-color">
+            <!-- Match Card Component -->
+            <div class="keep row-container match-card card-info">
+                <span class="icon-span"><img src="public/assets/img/volleyball.svg" alt="Volei"></span>
+                <h3 class="match-title">1DS x 3DS</h3>
+                <span class="match-info">27-07-2026</span>
+                <span class="match-info">vôlei</span>
+            </div>
+            <!--  -->
+            <div class="keep row-container match-card card-info">
+                <span class="icon-span"><img src="public/assets/img/volleyball.svg" alt="Volei"></span>
+                <h3 class="match-title">1DS x 3DS</h3>
+                <span class="match-info">27-07-2026</span>
+                <span class="match-info">vôlei</span>
+            </div>
+            <div class="keep row-container match-card card-info">
+                <span class="icon-span"><img src="public/assets/img/volleyball.svg" alt="Volei"></span>
+                <h3 class="match-title">1DS x 3DS</h3>
+                <span class="match-info">27-07-2026</span>
+                <span class="match-info">vôlei</span>
+            </div>
+            <div class="keep row-container match-card card-info">
+                <span class="icon-span"><img src="public/assets/img/volleyball.svg" alt="Volei"></span>
+                <h3 class="match-title">1DS x 3DS</h3>
+                <span class="match-info">27-07-2026</span>
+                <span class="match-info">vôlei</span>
+            </div>
+        </div>
+    </div>
+    <div class="container main-feed">
+        <h1>Home</h1>
+        <div class="row-container">
+            <h2>Feed</h2>
+            <div class="fill keep row-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Pesquise aqui!">
+                    <button class="search-bar-search">
+                        <span class="icon-span"><img src="public/assets/icons/search-icon.svg" alt="Search"></span>
+                    </button>
+                </div>
+                <span class="icon-span"><img src="public/assets/icons/filter-icon.svg" alt="Filtrar"></span>
+            </div>
+        </div>
+        <div class="scrollable container padded feed-container main-dark-color">
+            <!-- Match result Component -->
+            <div class="container match-post-card">
+                <div class="keep row-container card-info">
+                    <h2 class="match-title">Interclasse 2026</h2>
+                    <span class="icon-span">●</span>
+                    <span>27-07-26</span>
+                    <span class="icon-span">●</span>
+                    <span>vôlei</span>
+                </div>
+                <div class="keep row-container match-result">
+                    <div class="keep row-container team-result-info">
+                        <div class="container team-profile">
+                            <span class="team-profile-icon"><img src="public/assets/img/placeholder/adm-team.png" alt="Time"></span>
+                            <span class="team-name">3ADM</span>
+                        </div>
+                        <span class="icon-span"><img src="public/assets/icons/arrow-down.svg" alt="Perdeu"></span>
+                    </div>
+                    <div class="container">
+                        <div class="keep row-container team-points-info">
+                            <span class="team-points">0</span>
+                            <h3>X</h3>
+                            <span class="team-points">7</span>
+                        </div>
+                        <span class="match-class">Masculino</span>
+                    </div>
+                    <div class="keep row-container team-result-info">
+                        <span class="icon-span"><img src="public/assets/icons/arrow-up.svg" alt="Ganhou"></span>
+                        <div class="container team-profile">
+                            <span class="team-profile-icon"><img src="public/assets/img/placeholder/ds-team.png" alt="Time"></span>
+                            <span class="team-name">3DS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Post Component -->
+            <div class="container post-card">
+                <img class="post-banner" src="public/assets/img/placeholder/post-banner.jpg">
+                <div class="keep row-container card-info">
+                    <div class="keep row-container card-info">
+                        <span class="icon-span round-profile"><img src="public/assets/img/placeholder/profile-picture.jpg" alt=""></span>
+                        <h3>Eduarda Leal</h3>
+                    </div>
+                    <span>27-07-26</span>
+                </div>
+                <div class="container post-content">
+                    <h2 class="post-title">Anúncio Interclasse 2026</h2>
+                    <p class="post-body">
+                        A interclasse vai rolar algum dia aí da semana, boa sorte à todos, divirtam-se muito !!!!
+                        Vamos seguir o mesmo formato do ano passado, melhor de 3 em cada jogo. Eliminação única, perdeu uma vez, é expulso do campeonato...
+                    </p>
+                </div>
+            </div>
+            <!-- Match Announcement Component -->
+            <div class="container match-post-card">
+                <div class="keep row-container card-info">
+                    <h2 class="match-title">Interclasse 2026</h2>
+                    <span class="icon-span">●</span>
+                    <span>27-07-26</span>
+                    <span class="icon-span">●</span>
+                    <span>vôlei</span>
+                </div>
+                <div class="keep row-container match-result">
+                    <div class="keep row-container team-result-info">
+                        <div class="container team-profile">
+                            <span class="team-profile-icon"><img src="public/assets/img/placeholder/adm-team.png" alt="Time"></span>
+                            <span class="team-name">3ADM</span>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="keep row-container team-points-info">
+                            <h3>X</h3>
+                        </div>
+                        <span class="match-class">Masculino</span>
+                    </div>
+                    <div class="keep row-container team-result-info">
+                        <div class="container team-profile">
+                            <span class="team-profile-icon"><img src="public/assets/img/placeholder/ds-team.png" alt="Time"></span>
+                            <span class="team-name">3DS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

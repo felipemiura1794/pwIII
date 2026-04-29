@@ -1,0 +1,100 @@
+.Admin-equipe {
+    background-color: #10141A;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.Admin-equipe img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.Admin-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 3px; 
+
+}
+.Admin-Info {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.Capita{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.jogadores-lista {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px 15px; 
+}
+
+.ProPlayer-card {
+    background-color: #111925;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 12px 15px; 
+    border-radius: 2px;
+}
+
+.jogador-perfil-grupo {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+.jogador-perfil-grupo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 2px;
+}
+
+.jogador-dados {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.jogador-dados-pessoais .nome {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.curso-adicionar {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.jogador-status-grupo {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.jogador-conquistas {
+    display: flex;
+    gap: 8px; 
+}
+.jogador-conquistas img {
+    height: 50px; 
+    width: auto;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+
+.Campeonatos {  
+    background-color: #10141A;
+    margin-bottom: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}

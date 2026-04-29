@@ -32,7 +32,7 @@ main {
 
 :root {
     /* Cores */
-    --page-background-color: white;
+    --page-background-color: var(--main-color);
     --default-font-color: white;
 
     /* Outras coisas */

@@ -1,46 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe</title>
-    <base href="../app/">
-    <link rel="stylesheet" href="public/style/general.css">
-    <link rel="stylesheet" href="public/style/components/import.css">
-    <link rel="stylesheet" href="public/style/pages/equipe.css">
-</head>
-<body>
+<link rel="stylesheet" href="public/style/components/import.css">
+<link rel="stylesheet" href="public/style/pages/perfil.css">
+<link rel="stylesheet" href="public/style/pages/equipe.css">
 
+<?php include "components/root/html_head_close.php"; ?>
 <main class="corpo">
-
-     <header>
-        <div class="navbar default">
-            <div class="navbar-gradient"></div>
-            <div class="navbar-logo">
-                Interclasse
-            </div>
-            <ul class="navbar-nav central">
-                <li class="nav-item">
-                    <a class="nav-link" href="?">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?">Times</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?">Ranking</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="?">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-button" href="?">Cadastro</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
+    
     <div class="perfil-banner">
     <div class="banner">
         <img src="public/assets/img/placeholder/BannerEquipe.jpg" alt="Banner">
@@ -211,7 +175,3 @@
         
 </div>
 </main>
-
-    
-</body>
-</html>
